@@ -1,1 +1,1 @@
-The readme describing what ech script in this folder is doing:
+The readme describing what each script in this folder is doing:
