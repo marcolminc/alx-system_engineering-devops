@@ -1,2 +1,2 @@
 #!/bin/bash
-find .-mindepth 1 -type d -exec chmod +x .
+chmod -R u=rwX, g=rX, o=x .
