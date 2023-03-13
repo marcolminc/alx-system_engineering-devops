@@ -7,6 +7,7 @@ each script is described how it works/ what it produces
 - [0.](#0-hello_world)
 - [1.] (#1-confused_smiley)
 - [2.] (#2-hellofile)
+- [3.] (#3-twofiles)
 
 ## 0-hello world
 
@@ -20,4 +21,7 @@ displays a confused smiley "(Ôo)'. Using \" to escape the apostrophe.
 
 Display the content of the /etc/passwd file. Using less.
 
+## 3-twofiles
+
+Display the content of /etc/passwd and /etc/hosts. Using cat file1 file2.
 
