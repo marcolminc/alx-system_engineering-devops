@@ -8,6 +8,7 @@ each script is described how it works/ what it produces
 - [1.] (#1-confused_smiley)
 - [2.] (#2-hellofile)
 - [3.] (#3-twofiles)
+- [4.] (#4-lastlines)
 
 ## 0-hello world
 
@@ -24,4 +25,8 @@ Display the content of the /etc/passwd file. Using less.
 ## 3-twofiles
 
 Display the content of /etc/passwd and /etc/hosts. Using cat file1 file2.
+
+## 4-lastlines
+
+Display the last 10 lines of /etc/passwd. Using tail.
 
