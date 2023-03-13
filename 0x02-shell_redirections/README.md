@@ -10,6 +10,7 @@ each script is described how it works/ what it produces
 - [3.] (#3-twofiles)
 - [4.] (#4-lastlines)
 - [5.] (#5-firstlines)
+- [6.] (#6-third_line)
 
 ## 0-hello world
 
@@ -34,4 +35,9 @@ Display the last 10 lines of /etc/passwd. Using tail.
 ## 5-firstlines
 
 Displays the first 10 lines. Using head.
+
+## 6-third_line
+
+This command uses head to display the first three lines of "filename.txt", and then pipes the output to tail with the -n 1 option, which displays only the last line of the output. Since the output of head is the first three lines of the file, the third line will be the last line of the output, and tail will display it.
+head -n 3 iacta | tai -n 1
 
