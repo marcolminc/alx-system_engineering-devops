@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in *.gif; do mv "$file" "${file%.gif}"; done
+find . -name '*.gif' -execdir sh -c 'mv "$1" "${1%.gif}.gif"' _ {} +
