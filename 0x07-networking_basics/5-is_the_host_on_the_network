@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Check if an IP address is passed as an argument
+if [ -z "$1" ]; then
+    echo "Usage: $0 {IP_ADDRESS}"
+    exit 1
+fi
+
+# Store the IP address
+IP_ADDRESS=$1
+
+# Ping the IP address 5 times
+ping -c 5 $IP_ADDRESS
+
