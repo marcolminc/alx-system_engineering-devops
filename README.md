@@ -1,2 +1,2 @@
-#Shell basics
-learning basic shell commands and usage
+# Shell basics
+## learning basic shell commands and usage
