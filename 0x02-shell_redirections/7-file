@@ -1,0 +1,3 @@
+#!/bin/bash
+FILE_NAME="\*\\'\"Best School\"\'\\*$\?\*\*\*\*\*:)"
+echo Best School > "$FILE_NAME"
