@@ -1,0 +1,3 @@
+#!/bin/bash
+dir_count=$(find . -type d ! -name '.' ! -name '..' | wc -l)
+echo $dir_count
