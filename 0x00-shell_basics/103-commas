@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a1p | sort -f | tr '\n' ','
+printf '%s, ' . ..; ls -1A | grep -v '^\.\{1,2\}$' | sort -k1.1,1.1n -k1.2,1 | sed 's|^\(.*\)/|\1/|; s|\([^/]*\)$|\1|' | paste -sd ', ' -; echo
