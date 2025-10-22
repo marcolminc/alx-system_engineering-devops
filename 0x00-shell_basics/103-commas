@@ -1,3 +1,3 @@
 #!/bin/bash
-printf '%s, ' . .. | cat - <(ls -1A | grep -v '^\.\{1,2\}$' | sort -k1.1,1.1n -k1.2,1 | sed 's|^\(.*\)/|\1/|; s|\([^/]*\)$|\1|' | paste -sd ', ' -) > tmp; cat tmp; echo; rm tmp
+printf '%s, ' . .. $(ls -1A | grep -v '^\.\{1,2\}$' | sort -k1.1,1.1n -k1.2,1 | sed 's|^\(.*\)/|\1/|; s|\([^/]*\)$|\1|' | tr '\n' ' ') | sed 's/, $/\n/'
 
